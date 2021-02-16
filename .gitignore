@@ -1,3 +1,15 @@
+**/build/*
+**settings.gradle
+**/gradlew
+!.gitignore
+!*.md
+!*.java
+!*.txt
+!*.json
+!*.jpg
+!*.uml
+!*build.gradle
+
 # Compiled class file
 *.class
 
@@ -21,3 +33,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Gradle
+/build
+
+# IDEA
+!/.idea
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+*/**/.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+
+.DS_Store
+*.exec
+*.html
+*.gif
+*.css
+*.js
+*.xml
+*.bin
+*.idx
+*.MF
+*.properties
+*.bat
+*.lock
